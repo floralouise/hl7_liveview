@@ -18,6 +18,8 @@ defmodule Hl7LiveviewWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
+    live "/report", ReportLive
   end
 
   # Other scopes may use custom stacks.
