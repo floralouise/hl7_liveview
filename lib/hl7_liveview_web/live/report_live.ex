@@ -15,10 +15,10 @@ end
 def render(assigns) do
 
   # add button clicks to be able to display data here
-  
+
   ~H"""
   <h1>Let's show some data</h1>
-
+la la la
 
   <h2>Parse</h2>
   <%= @parse %>
