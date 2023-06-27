@@ -13,9 +13,28 @@ end
 # render
 
 def render(assigns) do
+
+  # add button clicks to be able to display data here
+  
   ~H"""
-  <strong>Let's show some data</strong>
+  <h1>Let's show some data</h1>
+
+
+  <h2>Parse</h2>
   <%= @parse %>
+
+  <h2>Query</h2>
+  <%=  %>
+
+  <h3>Choose</h3>
+  <%=  %>
+
+  <h3>remove</h3>
+  <%=  %>
+
+  <h2>Create</h2>
+  <%=  %>
+
   """
   end
 
