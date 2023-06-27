@@ -7,9 +7,21 @@ defmodule Hl7Liveview do
   if it comes from the database, an external API or others.
   """
 
+## Examples
+
+# iex> Hl7Liveview.hello()
+# :world
+
+  def hello do
+    :world
+  end
+
   # Stuff to do with LiveView:
 
   # Parse a message
+
+  # ex: Hl7Liveview.parse()
+
   def parse do
     HL7.Examples.wikipedia_sample_hl7
     |> HL7.Message.to_list()
@@ -27,6 +39,8 @@ defmodule Hl7Liveview do
       # |> select("DG1")
       # |> get_parts("3.2")
       # ["Cryptosporidiosis", "Dehydration", "Diarrhea"]
+
+      # ex: Hl7Liveview.choose()
 
       def choose do
         import HL7.Query
@@ -48,6 +62,8 @@ defmodule Hl7Liveview do
         # ...> |> delete()
         # ...> |> to_string()
 
+        # ex: Hl7Liveview.remove()
+
         def remove do
           import HL7.Query
           HL7.Examples.nist_syndromic_hl7()
@@ -63,6 +79,8 @@ defmodule Hl7Liveview do
     #  HL7 messages can be constructed from scratch with the HL7.Message module. Passing an HL7.Header struct to HL7.Message.new/1 will produce a base message upon which you can add additional segments. These can be appended as list data.
 
     # The final raw message can be produced by invoking the to_string/1 protocol on either the HL7.Query or HL7.Message structs.
+
+    # Ex: Hl7Liveview.create()
 
 def create() do
   header = %HL7.Header{
