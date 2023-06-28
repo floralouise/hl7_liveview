@@ -20,6 +20,8 @@ defmodule Hl7LiveviewWeb.Router do
     get "/", PageController, :home
 
     live "/report", ReportLive
+    live "/about", AboutLive
+    live "/query", QueryLive
   end
 
   # Other scopes may use custom stacks.

@@ -17,7 +17,8 @@ def render(assigns) do
   # add button clicks to be able to display data here
 
   ~H"""
-  <h1>Let's show some data</h1>
+  <h1>Report Page</h1>
+  Let's show some data
 la la la
 
   <h2>Parse</h2>
@@ -34,7 +35,6 @@ la la la
 
   <h2>Create</h2>
   <%=  %>
-
   """
   end
 
