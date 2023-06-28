@@ -2,24 +2,30 @@
   <div class="flex items-center justify-between border-b border-zinc-100 py-3 text-sm">
     <div class="flex items-center gap-4">
       <a href="/">
-        <img src={~p"/images/logo.svg"} width="36" />
+        <%!-- <img src={~p"/images/logo.svg"} width="36" /> --%>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#D90368" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+</svg>
+
       </a>
-      <p class="bg-brand/5 text-brand rounded-full px-2 font-medium leading-6">
-        v<%= Application.spec(:phoenix, :vsn) %>
+      <p class="bg-brand/5 rounded-full px-2 font-medium leading-6">
+        <%!-- v<%= Application.spec(:phoenix, :vsn) %> --%>
+        HL7 + LiveView
       </p>
     </div>
     <div class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">
-      <a href="https://twitter.com/elixirphoenix" class="hover:text-zinc-700">
+      <%!-- <a href="https://github.com/floralouise/hl7_liveview" class="hover:text-zinc-700 >
         @elixirphoenix
-      </a>
-      <a href="https://github.com/phoenixframework/phoenix" class="hover:text-zinc-700">
+      </a> --%>
+      <a href="https://github.com/floralouise/hl7_liveview" class="hover:text-zinc-700" target="blank">
         GitHub
       </a>
       <a
-        href="https://hexdocs.pm/phoenix/overview.html"
+        href="https://github.com/HCA-Healthcare/elixir-hl7"
+        target="blank"
         class="rounded-lg bg-zinc-100 px-2 py-1 hover:bg-zinc-200/80"
       >
-        Get Started <span aria-hidden="true">&rarr;</span>
+        ElixirHL7 <span aria-hidden="true">&rarr;</span>
       </a>
     </div>
   </div>
