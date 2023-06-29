@@ -22,6 +22,9 @@ defmodule Hl7Liveview do
 
   # ex: Hl7Liveview.parse()
 
+  #TO:
+  # make this dynamic by number (limit to what's available)
+
   def parse do
     HL7.Examples.wikipedia_sample_hl7
     |> HL7.Message.to_list()
