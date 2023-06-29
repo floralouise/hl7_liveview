@@ -19,7 +19,7 @@ defmodule Hl7LiveviewWeb.Router do
 
     get "/", PageController, :home
 
-    live "/report", ReportLive
+    live "/examples", ExamplesLive
     live "/about", AboutLive
     live "/query", QueryLive
   end
