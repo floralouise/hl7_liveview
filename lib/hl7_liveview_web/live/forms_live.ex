@@ -1,4 +1,4 @@
-defmodule Hl7LiveviewWeb.QueryLive do
+defmodule Hl7LiveviewWeb.FormsLive do
   use Hl7LiveviewWeb, :live_view
 
   # mount
@@ -14,8 +14,10 @@ defmodule Hl7LiveviewWeb.QueryLive do
     # add button clicks to be able to display data here
 
     ~H"""
-    <h1>Query Page</h1>
+    <h1>Forms!</h1>
+<form>
 
+</form>
 
     """
     end

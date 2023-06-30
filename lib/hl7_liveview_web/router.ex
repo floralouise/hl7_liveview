@@ -21,7 +21,9 @@ defmodule Hl7LiveviewWeb.Router do
 
     live "/examples", ExamplesLive
     live "/about", AboutLive
-    live "/query", QueryLive
+    live "/buttons", ButtonsLive
+    live "/forms", FormsLive
+    live "/charts", ChartsLive
   end
 
   # Other scopes may use custom stacks.
