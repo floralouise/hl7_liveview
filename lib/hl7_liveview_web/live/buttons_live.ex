@@ -30,9 +30,10 @@ defmodule Hl7LiveviewWeb.ButtonsLive do
       <h2 class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">🆒 Button clicks</h2>
       <p>- HL7 messages can be fully parsed into lists of lists and strings to provide a compact representation of the message structure.</p>
 
-      <p><strong>Adjust the number to view the segment of the message</strong>.
+      <p>- Use the buttons to view each segment of the message.
       <i>(first, second, third...)</i></p>
-      <div class="text-[2rem] mt-4 font-semibold leading-10 tracking-tighter text-zinc-900">Original message:</div>
+      <p class="text-[2rem] mt-4 font-semibold leading-10 tracking-tighter text-zinc-900">
+Original message:</p>
       <pre><%= @message %>
       </pre>
       <div class="text-[2rem] mt-4 font-semibold leading-10 tracking-tighter text-zinc-900">
