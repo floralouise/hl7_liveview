@@ -1,6 +1,7 @@
 # Hl7Liveview
 
-This project uses LiveView with the Elixir Hl7 library: https://github.com/HCA-Healthcare/elixir-hl7.
+- View the deployed app here: https://hl7-liveview.fly.dev/.
+- This project uses LiveView with the Elixir Hl7 library: https://github.com/HCA-Healthcare/elixir-hl7
 
 To start your Phoenix server:
 
