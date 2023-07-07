@@ -14,7 +14,7 @@ def render(assigns) do
     <h2 class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">🆒 Button clicks</h2></a>
 
     <a href="/forms">
-      <h2 class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">📝 Interactive forms (to do)</h2>
+      <h2 class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">📝 Interactive forms (working)</h2>
     </a>
 
     <h2 class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">⌨️  Key events (to do)</h2>

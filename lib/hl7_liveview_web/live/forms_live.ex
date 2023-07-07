@@ -14,10 +14,11 @@ defmodule Hl7LiveviewWeb.FormsLive do
     # add button clicks to be able to display data here
 
     ~H"""
-    <h1>Forms!</h1>
-<form>
+    <h2 class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">Forms!</h2>
+Reference:<br>
+- <a href="https://fly.io/phoenix-files/liveview-multi-select/" style="color:blue" target="blank">A reusable Multi-Select component for Phoenix LiveView</a><br>
+- <a href="https://hexdocs.pm/phoenix_live_view/Phoenix.Component.html#form/1" style="color:blue" target="blank">Phoenix forms docs</a>
 
-</form>
 
     """
     end
