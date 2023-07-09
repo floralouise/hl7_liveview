@@ -1,7 +1,7 @@
 # Hl7Liveview
 
 # Hello7
-- LiveView + HL7git 
+- LiveView + HL7
 
 To start your Phoenix server:
 
